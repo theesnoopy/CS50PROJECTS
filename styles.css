@@ -3,15 +3,27 @@
 }
 
 #search{
-    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
+    width: 500px;
+    border-style: solid;
+    border-width: 1px;
     border-radius: 25px;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: 10px;
-    border-color: black;
-    background-color: red;
+    border-color: lightgrey;
+    outline: none;
+    
+}
+
+#textentry{
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 400px;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 25px;
+    outline: none;
 }
 
 img{
@@ -25,5 +37,11 @@ img{
 }
 
 #baz > div{
-    padding: 10px;
+    padding: 3px;
+    margin-top: 30px;
+    height: 10px;
+}
+
+.button{
+    height: 30px;
 }

@@ -1,32 +1,21 @@
 <!DOCTYPE html>
 <html lang = en>
-    <head>
-        <title>GoogleAdvancedSearch</title>
+    <head>   
         <link rel="stylesheet" href="styles.css">
         <style>
-            .faz{
-                text-align: right;
-            }
-
-            #google{
-                text-align: center;
-                font-size: 100px;
-                margin: 50px;
-            }
-
-            .search{
-                text-align: center;
-                border-radius: 10px;
-            }
+            
         </style>
     </head>
-    <body>
+    <body>       
         <div class = "faz"><a href = "file:///C:/Users/Elvis/Documents/HTMLCS/googlesearchimage.html">GoogleSearchImage</a></div>
-        <div class = "faz"><a href = "file:///C:/Users/Elvis/Documents/HTMLCS/googleadvancedsearch.html">GoogleAdvancedSearch</a></div>
-        <div id = "google">Google</div>
+        <div class = "faz"><a href = "file:///C:/Users/Elvis/Documents/HTMLCS/googlesearch.html">GoogleSearch</a></div>
+        <center><img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/368px-Google_2015_logo.svg.png"></center>
         <form action="https://google.com/search">
-            <div id = "search"><input type="text" name="q"></div>
-            <div id = ""><input type="submit" value="Google Search"></div>
+            <center><div id = "search"><input type="text" name="q" id = "textentry"></div></center>
+            <div id = "baz">
+                <div style = "margin-left: auto"><input type="submit" value="Google Search" class = "button"></div>
+                <div style = "margin-right: auto"><input type="button" value= "I'm Feeling Lucky" class = "button"></div>
+            </div>
         </form>
     </body>
 </html>
