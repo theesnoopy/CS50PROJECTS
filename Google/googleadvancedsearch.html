@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang = en>
+    <head>   
+        <title>Google Advanced Search</title> 
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            img{
+                padding-top: 0px;
+                padding-bottom: 10px;
+                padding-right: 1300px;
+                width: 100px;
+                vertical-align: left;
+            }
+
+            #advanced{
+                color: #d93025;
+                font-size: 20px;
+                margin: 25px 35px;
+                padding-bottom: 50px;       
+            }
+
+            .textextry{
+                padding-top: 8px;
+                padding-bottom: 8px;
+                width: 400px;
+                border-style: solid;
+                border-width: 1px;
+                outline: none;
+                border-color: lightgrey;
+                vertical-align: center;
+            }
+
+            #Find{
+                font-family: arial,sans-serif;
+                margin: 25px 35px; 
+            }
+
+            .text{
+                display: flex;
+                flex-wrap: wrap;
+                padding-right: 500px;
+                font-size: 13px;
+                margin: 25px 35px; 
+            }
+
+            .text > div{
+
+            }
+
+            #button{
+                webkit-border-radius: 2px;
+
+                border-radius: 2px;
+                font-size: 11px;
+                font-weight: bold;
+                margin-right: 16px;
+                height: 27px;
+                min-width: 54px;
+                outline: 0;
+                padding: 0 8px;
+                border: 1px solid #3079ed;
+                color: #fff;
+                box-shadow: none;
+                background-color: #4d90fe;
+                background-image: (top,#4d90fe,#4787ed);
+            }
+
+        </style>
+    </head>
+    <body>       
+        <div class = "faz"><a href = "file:///C:/Users/Elvis/Documents/HTMLCS/googlesearchimage.html">GoogleSearchImage</a></div>
+        <div class = "faz"><a href = "file:///C:/Users/Elvis/Documents/HTMLCS/googlesearch.html">GoogleSearch</a></div>
+        <center><img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/368px-Google_2015_logo.svg.png"></center>
+        <div id = "advanced">Advanced Search</div>
+        <div id = "Find">Find pages with...</div>
+        <form action="https://google.com/search">
+            <div id = "laz">
+                <div class = "text">all these words: <div><input type="text" name="as_q" class = "textentry"></div></div>
+                <div class = "text">this exact work or phrase: <div><input type="text" name="as_epq" class = "textentry"></div></div>
+                <div class = "text">any of these words: <div><input type="text" name="as_oq" class = "textentry"></div></div>
+                <div class = "text">none of these words: <div><input type="text" name="as_eq" class = "textentry"></div></div>
+            </div>
+            <div id = "baz">
+                <div><input type="submit" value="Advanced Search" id = "button"></div>
+                
+            </div>
+        </form>
+    </body>
+</html>
