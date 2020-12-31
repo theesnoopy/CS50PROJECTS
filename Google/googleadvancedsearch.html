@@ -1,20 +1,45 @@
 <!DOCTYPE html>
 <html lang = en>
     <head>   
+        <title>Google Advanced Search</title> 
         <link rel="stylesheet" href="styles.css">
-        <style>
-            
+        <style>  
+            td{
+                margin: 35px;
+            }
         </style>
     </head>
-    <body>       
-        <div class = "faz"><a href = "file:///C:/Users/Elvis/Documents/HTMLCS/googlesearchimage.html">GoogleSearchImage</a></div>
-        <div class = "faz"><a href = "file:///C:/Users/Elvis/Documents/HTMLCS/googlesearch.html">GoogleSearch</a></div>
-        <center><img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/368px-Google_2015_logo.svg.png"></center>
+    <body>
+        <div id = "advancedimg">
+            <div class = "faz"><a href = "file:///C:/Users/Elvis/Documents/HTMLCS/Google/googlesearchimage.html">GoogleSearchImage</a></div>
+            <div class = "faz"><a href = "file:///C:/Users/Elvis/Documents/HTMLCS/Google/googlesearch.html">GoogleSearch</a></div>
+            <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/368px-Google_2015_logo.svg.png" id = "advanced_img"></div>
+        </div>       
+        
+        <div id = "advanced">Advanced Search</div>
+        <div id = "Find">Find pages with...</div>
         <form action="https://google.com/search">
-            <center><div id = "search"><input type="text" name="q" id = "textentry"></div></center>
+            <table>
+                <tr>
+                    <td><div class = "text">all these words: </div></td>
+                    <td><div class = "entry"><input type="text" name="as_q" class = "advancedtextentry"></div></td>
+                </tr>
+                    <tr>
+                    <td><div class = "text">this exact work or phrase: </div></td>
+                    <td><div class = "entry"><input type="text" name="as_epq" class = "advancedtextentryy"></div></td>
+                </tr>
+                <tr>
+                    <td><div class = "text">any of these words: </div></td>
+                    <td><div class = "entry"><input type="text" name="as_oq" class = "advancedtextentry"></div></td>
+                </tr>
+                <tr>
+                    <td><div class = "text">none of these words: </div></td>
+                    <td><div class = "entry"><input type="text" name="as_eq" class = "advancedtextentry"></div></td>
+                </tr>
+            </table>
+            
             <div id = "baz">
-                <div style = "margin-left: auto"><input type="submit" value="Google Search" class = "button"></div>
-                <div style = "margin-right: auto"><input type="button" value= "I'm Feeling Lucky" class = "button"></div>
+                <div><input type="submit" value="Advanced Search" id = "advanced_button"></div>  
             </div>
         </form>
     </body>

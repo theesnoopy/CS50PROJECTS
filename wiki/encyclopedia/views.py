@@ -68,7 +68,7 @@ def entry(request, title):
 
         return render(request, "encyclopedia/entry.html", context)
     else:
-        return render(request, "encyclopedia/error.html", {"message": "The requested page was not found.", "form":Search()})
+        return render(request, "encyclopedia/error.html", {"message": "Page not found.", "form":Search()})
 
 
 def create(request):
